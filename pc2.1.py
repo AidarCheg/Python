@@ -1,0 +1,5 @@
+print("Введите строку:")
+f = str(input())
+print("Самое длинное слово в строке:")
+s = max(map(lambda x: (len(x), x), f.split(" ")))
+print (s[1])

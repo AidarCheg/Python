@@ -1,0 +1,8 @@
+import package
+
+x = int(input("Введите число от 1 до 10 = "))
+
+package.if1(x)
+package.if2(x)
+package.if3(x)
+package.else1(x)
